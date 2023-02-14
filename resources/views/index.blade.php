@@ -190,6 +190,39 @@
             });
         </script> -->
     </section>
+    <section>
+        <div class="container-md">
+            <div class="row mt-5 pt-4">
+                <div class="col-12">
+                    <h2>
+                        Bezoek onze <span class="green">green</span> vestigingen
+                    </h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 p-4">
+                    <div class="branch-card">
+                        <div class="branch-card__content">
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/mail_FILL0_wght400_GRAD0_opsz48.png">
+                                </div>
+                                <div class="branch-card__text">
+                                    <strong>Raj Hogewoning</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="branch-card__image">
+                            <img src="images/locatie-nuenen.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-4">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script> -->
