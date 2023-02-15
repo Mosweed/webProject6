@@ -205,10 +205,35 @@
                         <div class="branch-card__content">
                             <div class="branch-card__row">
                                 <div class="branch-card__icon">
-                                    <img src="images/mail_FILL0_wght400_GRAD0_opsz48.png">
+                                    <img src="images/contact_mail_FILL0_wght400_GRAD0_opsz48.svg">
                                 </div>
                                 <div class="branch-card__text">
                                     <strong>Raj Hogewoning</strong>
+                                </div>
+                            </div>
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/mail_FILL0_wght400_GRAD0_opsz48.svg">
+                                </div>
+                                <div class="branch-card__text">
+                                    RajHogewoning@groenevingersshop.com <br>
+                                    info@groenevingersshop.com
+                                </div>
+                            </div>
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/call_FILL0_wght400_GRAD0_opsz48.svg">
+                                </div>
+                                <div class="branch-card__text">
+                                    06-33024999
+                                </div>
+                            </div>
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/location_on_FILL0_wght400_GRAD0_opsz48.svg">
+                                </div>
+                                <div class="branch-card__text">
+                                    Tuinstraat 167 2587 WD Nuenen
                                 </div>
                             </div>
                         </div>
@@ -218,7 +243,46 @@
                     </div>
                 </div>
                 <div class="col-12 p-4">
-                    
+                    <div class="branch-card">
+                        <div class="branch-card__content">
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/contact_mail_FILL0_wght400_GRAD0_opsz48.svg">
+                                </div>
+                                <div class="branch-card__text">
+                                    <strong>Anne Kuin</strong>
+                                </div>
+                            </div>
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/mail_FILL0_wght400_GRAD0_opsz48.svg">
+                                </div>
+                                <div class="branch-card__text">
+                                    AnneKuin@kuinshop.com, <br>
+                                    info@kuinshop.com
+                                </div>
+                            </div>
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/call_FILL0_wght400_GRAD0_opsz48.svg">
+                                </div>
+                                <div class="branch-card__text">
+                                    06-91204657
+                                </div>
+                            </div>
+                            <div class="branch-card__row">
+                                <div class="branch-card__icon">
+                                    <img src="images/location_on_FILL0_wght400_GRAD0_opsz48.svg">
+                                </div>
+                                <div class="branch-card__text">
+                                    Kruiswaal 16 1161 AM Zwanenburg
+                                </div>
+                            </div>
+                        </div>
+                        <div class="branch-card__image">
+                            <img src="images/locatie-nuenen.png">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
