@@ -7,8 +7,6 @@ $dark-green: #112609;
 *:before {
     box-sizing: border-box;
 }
-
-
 html,
 body {
     width: 100%;
@@ -25,18 +23,26 @@ body {
 
 header {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 8px;
+    .header-logo {
+        width: 240px;
+        height: auto;
 
+        >img {
+            width: 100%;
+        }
+    }
     .menu-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 16px;
-        padding: 24px 0;
-
         .menu-item {
             font-family: $montserat;
             font-weight: 400;
-            font-size: 21px;
+            font-size: 18px;
             line-height: 26px;
             text-align: center;
 
@@ -60,15 +66,6 @@ header {
                 }
             }
         }
-
-        .header-logo {
-            width: 320px;
-            height: auto;
-
-            >img {
-                width: 100%;
-            }
-        }
     }
 
     .header-icon {
@@ -80,8 +77,8 @@ header {
         }
 
         &__wrapper {
-            margin: 24px;
-            position: absolute;
+            margin-left: 6px;
+            // position: absolute;
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -334,10 +331,16 @@ h2 {
             width: 100%;
         }
     }
+    &__location{
+        width: 500px;
+        height: 200px;
+        >iframe{
+            width: 100%;
 
+        }
+    }
     &__image {
         height: 100%;
-
         >img {
             width: 100%;
         }
