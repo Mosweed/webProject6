@@ -6,7 +6,8 @@ use App\Http\Controllers\ProductController;
 
 Route::middleware(['auth','user-role:admin'])->group(function()
 {
-    Route::get('/yazan', [HomeController::class, 'admin'])->name('home');
+    Route::get('/dashboard', [HomeController::class, 'admin'])->name('home');
+    Route::get('/orders', [HomeController::class, 'admin'])->name('home');
     Route::get('/create', [ProductController::class, 'create'])->name('create');
     Route::post('store/', [ProductController::class, 'store'])->name('store');
     Route::get('show/{product}', [ProductController::class, 'show'])->name('show');

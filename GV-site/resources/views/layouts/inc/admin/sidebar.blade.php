@@ -1,9 +1,21 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="/dashboard">
           <i class="mdi mdi-home menu-icon"></i>
           <span class="menu-title">Dashboard</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/product">
+          <i class="mdi mdi-view-headline menu-icon"></i>
+          <span class="menu-title">Producten</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/charts/chartjs.html">
+          <i class="mdi mdi-chart-pie menu-icon"></i>
+          <span class="menu-title">Bestellingen</span>
         </a>
       </li>
       <li class="nav-item">
@@ -19,7 +31,7 @@
           </ul>
         </div>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="pages/forms/basic_elements.html">
           <i class="mdi mdi-view-headline menu-icon"></i>
           <span class="menu-title">Form elements</span>
@@ -58,7 +70,7 @@
             <li class="nav-item"> <a class="nav-link" href="pages/samples/lock-screen.html"> Lockscreen </a></li>
           </ul>
         </div>
-      </li>
+      </li> -->
       <li class="nav-item">
         <a class="nav-link" href="documentation/documentation.html">
           <i class="mdi mdi-file-document-box-outline menu-icon"></i>

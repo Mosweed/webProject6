@@ -9,10 +9,10 @@ width: 50px;
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Laravel 9 CRUD (Create, Read, Update and Delete) with Image Upload</h2>
+                <h2>Producten</h2>
             </div>
             <div class="pull-right" style="margin-bottom:10px;">
-            <a class="btn btn-success" href="{{ url('create') }}"> Create New Product</a>
+            <a class="btn btn-success" href="{{ url('create') }}">Voeg een product toe</a>
             </div>
         </div>
     </div>
@@ -25,11 +25,11 @@ width: 50px;
 
     <table class="table table-bordered">
         <tr>
-            <th>No</th>
-            <th>Image</th>
-            <th>Name</th>
-            <th>Details</th>
-            <th width="280px">Action</th>
+            <th>Id</th>
+            <th>Afbeelding</th>
+            <th>Title</th>
+            <th>Omschrijving</th>
+            <th width="280px">Actie</th>
         </tr>
         @foreach ($products as $product)
         <tr>
@@ -40,14 +40,14 @@ width: 50px;
             <td>
                 <form action="{{ route('destroy',$product->id) }}" method="POST">
 
-                    <a class="btn btn-info" href="{{ route('show',$product->id) }}">Show</a>
+                    <a class="btn btn-info" href="{{ route('show',$product->id) }}">Zie meer</a>
 
-                    <a class="btn btn-primary" href="{{ route('edit',$product->id) }}">Edit</a>
+                    <a class="btn btn-primary" href="{{ route('edit',$product->id) }}">Bewerken</a>
 
                     @csrf
                     @method('DELETE')
 
-                    <button type="submit" class="btn btn-danger">Delete</button>
+                    <button type="submit" class="btn btn-danger">Verwijderen</button>
                 </form>
             </td>
         </tr>
