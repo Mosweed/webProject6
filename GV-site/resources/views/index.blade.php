@@ -1,71 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Laravel</title>
-
-    <!-- Fonts -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap-grid.min.css"
-        integrity="sha512-JQksK36WdRekVrvdxNyV3B0Q1huqbTkIQNbz1dlcFVgNynEMRl0F8OSqOGdVppLUDIvsOejhr/W5L3G/b3J+8w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
-    <!-- Styles -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    <!-- slick -->
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    // Add the new slick-theme.css if you want the default styling
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" /> -->
-
-</head>
-
-<body class="theme-body__test">
-    <header>
-        <div class="menu-wrapper">
-            <div class="menu-item ">
-                <a class="active-menu-item" href="#">
-                    Home
-                </a>
-            </div>
-            <div class="menu-item">
-                <a href="#">
-                    Products
-                </a>
-            </div>
-            <div class="header-logo">
-                <img src="images/garden-logo.png" alt="logo">
-            </div>
-            <div class="menu-item">
-                <a href="#">
-                    About
-                </a>
-            </div>
-            <div class="menu-item">
-                <a href="#">
-                    Contact us
-                </a>
-            </div>
-        </div>
-        <div class="header-icon__wrapper">
-            <div class="header-icon">
-                <img src="images/search.png">
-            </div>
-            <div class="header-icon">
-                <img src="images/FAQ.png">
-            </div>
-            <div class="header-icon">
-                <img src="images/shopping-cart.png">
-            </div>
-        </div>
-    </header>
+    @include('header')
     <secton>
         <div class="container-fluid p-0">
             <div class="hero">
@@ -73,7 +7,7 @@
                     <img src="images/hero.png">
                 </div>
                 <h2>
-                    Coming soon...
+                    Binnenkort beschikbaar...
                 </h2>
             </div>
         </div>
@@ -287,9 +221,4 @@
             </div>
         </div>
     </section>
-    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script> -->
-</body>
-
-</html>
+@include('footer')
