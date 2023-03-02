@@ -5355,7 +5355,7 @@ fieldset:disabled .btn {
     display: block;
     padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
     font-size: var(--bs-pagination-font-size);
-    color: var(--bs-pagination-color);
+    color: #6A9758;
     text-decoration: none;
     background-color: var(--bs-pagination-bg);
     border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
@@ -5370,7 +5370,7 @@ fieldset:disabled .btn {
 
 .page-link:hover {
     z-index: 2;
-    color: var(--bs-pagination-hover-color);
+    color: #6A9758;
     background-color: var(--bs-pagination-hover-bg);
     border-color: var(--bs-pagination-hover-border-color)
 }
@@ -5387,8 +5387,8 @@ fieldset:disabled .btn {
 .page-link.active {
     z-index: 3;
     color: var(--bs-pagination-active-color);
-    background-color: var(--bs-pagination-active-bg);
-    border-color: var(--bs-pagination-active-border-color)
+    background-color: #6A9758;
+    border-color: #000000
 }
 
 .disabled>.page-link,

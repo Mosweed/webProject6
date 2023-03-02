@@ -13,7 +13,13 @@ class ProductController extends Controller
         return view('admin.product.products',compact('products'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
     }
+    public function indexHome()
+    {
+        $products = Products::latest()->paginate(5);
 
+        return view('index',compact('products'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -65,6 +71,11 @@ class ProductController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function show(Products $product)
+    {
+
+        return view('admin.product.show',compact('product'));
+    }
+    public function showProduct(Products $product)
     {
 
         return view('admin.product.show',compact('product'));

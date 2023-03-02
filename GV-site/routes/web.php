@@ -3,6 +3,8 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
  use App\Http\Controllers\HomeController;
+ use App\Http\Controllers\ProductController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,13 +20,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
+Route::get('/index', [ProductController::class, 'indexHome']);
 
 Route::get('/contact', function () {
     return view('contact');
 });
+Route::get('/products/{id}', [ProductController::class, 'showProduct']);
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
