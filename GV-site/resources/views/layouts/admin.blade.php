@@ -27,7 +27,7 @@
 
             <div class="main-panel">
                 <div class="content-wrapper">
-                    haloo
+
                     @yield('yazan')
                 </div>
             </div>
